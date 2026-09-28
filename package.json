@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tiltxml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tilt validation gates for xml inputs before they hit prod.",
+  "bin": {
+    "tiltxml": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tiltxml.git"
+  },
+  "homepage": "https://theworker02.github.io/tiltxml/",
+  "keywords": [
+    "tilt",
+    "xml",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
